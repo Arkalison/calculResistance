@@ -10,7 +10,7 @@
 
                 <!--V:Valeur / M:Multiplicateur / T:Tolérance / P:PPM-->
     <color name="valueBlack">#000000</color>        <!--   V M   -->
-    <color name="valueBrovn">#654321</color>        <!-- V M T P -->
+    <color name="valueBrown">#91672C</color>        <!-- V M T P -->
     <color name="valueRed">#FF0000</color>          <!-- V M T P -->
     <color name="valueOrange">#FF6600</color>       <!--  V M P  -->
     <color name="valueYellow">#FFFF00</color>       <!--  V M P  -->
@@ -18,7 +18,7 @@
     <color name="valueBlue">#2196F3</color>         <!-- V M T P -->
     <color name="valueViolet">#7F00FF</color>       <!-- V M T P -->
     <color name="valueGray">#808080</color>         <!--  V M T  -->
-    <color name="valueWhite">#FFFFFF</color>        <!--    M    -->
+    <color name="valueWhite">#FFFFFF</color>        <!--   V M   -->
     <color name="valueGold">#D4AF37</color>         <!--   M T   -->
     <color name="valueSilver">#BEC2CB</color>       <!--   M T   -->
 
