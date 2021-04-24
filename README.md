@@ -1,2 +1,2 @@
 # calculResistance
-Application mobile Android pour calculé les valeurs de résistances
+Application mobile Android pour calculer les valeurs de résistances
