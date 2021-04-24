@@ -1,4 +1,4 @@
-package com.example.calculresistance;
+package com.example.calculresistance.utilities;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.calculresistance.Color;
+import com.example.calculresistance.R;
 import com.example.calculresistance.Resistance;
 
 public class Bandes_4 extends Resistance{

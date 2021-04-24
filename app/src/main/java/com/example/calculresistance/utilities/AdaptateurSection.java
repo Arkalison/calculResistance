@@ -1,4 +1,4 @@
-package com.example.calculresistance;
+package com.example.calculresistance.utilities;
 
 import android.content.Context;
 
@@ -7,6 +7,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+
+import com.example.calculresistance.R;
 
 public class AdaptateurSection extends FragmentPagerAdapter {
 

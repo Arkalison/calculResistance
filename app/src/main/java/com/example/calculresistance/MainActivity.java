@@ -6,10 +6,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.content.Context;
 import android.os.Bundle;
 
-import com.example.calculresistance.AdaptateurSection;
-import com.example.calculresistance.Bandes_4;
-import com.example.calculresistance.Bandes_5;
-import com.example.calculresistance.Bandes_6;
+import com.example.calculresistance.utilities.AdaptateurSection;
 import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.example.calculresistance;
+package com.example.calculresistance.utilities;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,19 +7,24 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Bandes_5 extends Resistance{
+import com.example.calculresistance.R;
+import com.example.calculresistance.Resistance;
+
+public class Bandes_6 extends Resistance {
 
     private View val1;
     private View val2;
     private View val3;
     private View multiplicateur;
     private View tolerance;
+    private View coefTemperature;
 
     Button btn_val1;
     Button btn_val2;
     Button btn_val3;
     Button btn_multiplier;
     Button btn_tolerance;
+    Button btn_coef;
 
     TextView textView;
 
@@ -33,6 +38,7 @@ public class Bandes_5 extends Resistance{
         val3 = view.findViewById(R.id.valeur3);
         multiplicateur = view.findViewById(R.id.multiplicateur);
         tolerance = view.findViewById(R.id.tolerance);
+        coefTemperature = view.findViewById(R.id.temperature_coef);
 
         textView = (TextView)view.findViewById(R.id.textView2);
 
@@ -79,8 +85,14 @@ public class Bandes_5 extends Resistance{
             }
         });
 
+        btn_coef.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                choixCouleur(6, btn_coef, coefTemperature);
+            }
+        });
+
 
         return view;
     }
-
 }
