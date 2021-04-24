@@ -93,6 +93,21 @@ public class Color {
             0xBEC2CB        //"Ω"  Silver
     };
 
+    public static final double[] multiplicateurBandesValeurs = {
+            1f,
+            10f,
+            100f,
+            1f,
+            10f,
+            100f,
+            1f,
+            10f,
+            100f,
+            1f,
+            0.1f,
+            0.01f
+    };
+
     public static final int[] toleranceBandesCouleurs = {
             0x91672C,       //1%        Brown
             0xFF0000,       //2%        Red
@@ -104,6 +119,16 @@ public class Color {
             0xBEC2CB        //10%       Silver
     };
 
+    public static final double[] toleranceBandesValeurs = {
+            1f,
+            2f,
+            0.5f,
+            0.25f,
+            0.1f,
+            0.05f,
+            5f,
+            10f
+    };
     public static final int[] coefficientBandesCouleurs = {
             0x91672C,       //100   Brown
             0xFF0000,       //50    Red
@@ -114,24 +139,13 @@ public class Color {
 
     };
 
-    public static final double[] toleranceBandesValeurs = {
-            1,
-            2,
-            0.5,
-            0.25,
-            0.1,
-            0.05,
-            5,
-            10
-    };
-
-    public static final int[] coefficientBandesValue ={
-            100,
-            50,
-            15,
-            25,
-            10,
-            5
+    public static final double[] coefficientBandesValeurs ={
+            100f,
+            50f,
+            15f,
+            25f,
+            10f,
+            5f
     };
 
 }

@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name">CalculOhm</string>
+
     <string name="valeur_Resistance">valRes</string>
     <string name="multiplicateur_Resistance">Multiplieur</string>
     <string name="tolerance_Resistance">Tolérance</string>
     <string name="coeff_temp_Resistance">Coefficient Température</string>
+
+    <string name="section1">4 ANNEAUX</string>
+    <string name="section2">5 ANNEAUX</string>
+    <string name="section3">6 ANNEAUX</string>
 
 
 
