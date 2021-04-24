@@ -19,4 +19,6 @@
         <item name="colorAccent">@color/purple_500</item>
     </style>
 
+    <style name="Theme.CalculResistance.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
 </resources>

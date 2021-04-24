@@ -2,13 +2,20 @@ package com.example.calculresistance;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    final Context c = this;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.res_5_bandes_layout);
+        setContentView(R.layout.activity_main);
+
+
     }
+
+
 }

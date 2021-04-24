@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">calculResistance</string>
+    <string name="app_name">CalculOhm</string>
     <string name="valeur_Resistance">valRes</string>
     <string name="multiplicateur_Resistance">Multiplieur</string>
     <string name="tolerance_Resistance">Tolérance</string>
