@@ -36,7 +36,7 @@
             android:layout_width="10sp"
             android:layout_height="73dp"
             android:layout_gravity="center"
-            android:background="@color/valueBrovn"
+            android:background="@color/valueBrown"
             android:layout_weight="1" />
 
         <View
@@ -149,7 +149,7 @@
         android:text="100Ω ± 5%" />
 
     <Button
-        android:id="@+id/btn_band5_value1"
+        android:id="@+id/btn_5_bandes_val1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/Button"
@@ -158,7 +158,7 @@
         android:text="@string/valeur_Resistance" />
 
     <Button
-        android:id="@+id/btn_band5_value2"
+        android:id="@+id/btn_5_bandes_val2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/Button"
@@ -167,7 +167,7 @@
         android:text="@string/valeur_Resistance" />
 
     <Button
-        android:id="@+id/btn_band5_value3"
+        android:id="@+id/btn_5_bandes_val3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/Button"
@@ -176,7 +176,7 @@
         android:text="@string/valeur_Resistance" />
 
     <Button
-        android:id="@+id/btn_band5_multiplier"
+        android:id="@+id/btn_5_bandes_multiplicateur"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/Button"
@@ -185,7 +185,7 @@
         android:text="@string/multiplicateur_Resistance" />
 
     <Button
-        android:id="@+id/btn_band5_tolerance"
+        android:id="@+id/btn_5_bandes_tolerance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/Button"
